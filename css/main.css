@@ -278,20 +278,15 @@ header.sticky ul li a
     height: 50px;
 }
 
-.comment {
-    margin-top: 15px;
-    padding: 20px;
-    border-bottom: 1px solid #111;
-    
-}
 
-.comment h2 {
+
+.header-container h2 {
     font-size: 20px;
     color: #5495ca;
     
 }
 
-.comment h3{
+.header-container h3{
     font-size: 20px;
     color: #43baf1;
     
