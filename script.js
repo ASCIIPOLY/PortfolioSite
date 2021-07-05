@@ -1,9 +1,9 @@
 let button = document.getElementById('Gönder')
 let i = 0 ;
 
-function Delete(clicked){
-    console.log(clicked)
-    let element = document.getElementsByClassName(clicked);
+function Delete(clicked_id){
+    console.log(clicked_id)
+    let element = document.getElementsByClassName(clicked_id);
     console.log(element)
     element[0].remove();
 }
