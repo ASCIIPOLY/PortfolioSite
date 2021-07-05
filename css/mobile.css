@@ -51,19 +51,25 @@ header .logo
     letter-spacing: 1px;
 }
 
+#container-per-comment {
+    max-width: 100%;
+    overflow: hidden ;
+}
 
 
-.comments h2 {
+#container-per-comment .header-container h2 {
     font-size: 16px;
     
     
 }
 
-.comments h3{
+#container-per-comment .header-container h3{
     font-size: 16px;
     
 }
 
-.comments p{
-    font-size: 12px;
+#container-per-comment p{
+    font-size: 10px;
+    
+    
 }
