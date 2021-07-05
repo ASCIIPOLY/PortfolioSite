@@ -45,10 +45,13 @@ header .logo
     font-size: 10px;
 }
 
-.formBx form input[type="submit"]
+.formBx .form input[type="submit"]
 {
-    font-size: 0.8em ;
+    max-width: 70px;
     letter-spacing: 1px;
+    font-size: 12px;
+    padding: 10px;
+    
 }
 
 #container-per-comment {
@@ -68,8 +71,23 @@ header .logo
     
 }
 
+
+
 #container-per-comment p{
     font-size: 10px;
     
     
 }
+
+
+
+.container .Delete {
+    max-width: 60px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    height: 35px;
+}
+
+
