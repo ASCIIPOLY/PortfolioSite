@@ -247,7 +247,35 @@ header.sticky ul li a
 .container {
     display: flex;
     flex-direction: column;
-    
+
+
+}
+
+.container #container-per-comment{
+
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #111;
+    margin-top: 35px;
+}
+
+
+.container .header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .Delete {
+    max-width: 100px;
+    background: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    padding: 15px;
+    height: 50px;
 }
 
 .comment {
