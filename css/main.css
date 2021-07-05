@@ -58,7 +58,7 @@ section{
 
 /* Nav Bar */
 
-nav{
+header{
     position: fixed;
     top: 0;
     left: 0;
@@ -71,14 +71,14 @@ nav{
     transition: 0.5s;
 }
 
-nav.sticky
+header.sticky
 {
     background: #fff;
     padding: 20px 100px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
 }
 
-nav .logo
+header .logo
 {
     color: #fff;
     font-size: 24px;
@@ -88,22 +88,22 @@ nav .logo
 
 }
 
-nav.sticky .logo{
+header.sticky .logo{
     color: #111;
 }
 
-nav ul 
+header ul 
 {
     position: relative;
     display: flex;
 }
 
-nav ul li{
+header ul li{
     position: relative;
     list-style: none;
 }
 
-nav ul li a
+header ul li a
 {
     position: relative;
     display: inline-block;
@@ -112,7 +112,7 @@ nav ul li a
     text-decoration: none;
 }
 
-nav.sticky ul li a
+header.sticky ul li a
 {
     color: #111;
 }
