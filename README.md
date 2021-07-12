@@ -1,6 +1,6 @@
 # PortfolioSite
-Responsive portfolio Site 
+Responsive portfolio Site with comments section 
 
-### Konuşarak Öğren şirketi için portfolio sitesidir
 
-###Furkan Ören
+
+### Furkan Ören
